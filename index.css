@@ -25,6 +25,7 @@
     font-weight: 400;
     border-bottom: 3px solid var(--border-color);
     width: fit-content;
+    margin: 0 auto;
 }
 
 .lead {
@@ -96,7 +97,7 @@ nav {
 header {
     width: 100%;
     padding: 20px 10%;
-    height: 300px;
+    min-height: 300px;
     background-image: url(/img/5gbg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,10 +131,6 @@ header h1 span {
     
 }
 
-.fiveGRealm h2 {
-    margin: 0 auto;
-}
-
 .fiveGRealm h3 {
     font-size: 25px;
     font-weight: 300;
@@ -155,4 +152,14 @@ header h1 span {
 
 .download a:hover {
     border: 2px dashed var(--border-color);
+}
+
+.mindimg {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+.mindimg img {
+    width: 100%;
 }
